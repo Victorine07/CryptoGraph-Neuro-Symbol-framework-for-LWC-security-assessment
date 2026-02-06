@@ -1,6 +1,6 @@
 # CryptoGraph-Neuro-Symbolic-framework-for-LWC-security-assessment
 
-** A Formal Verification-Driven Framework for Automated Cryptanalysis**
+**A Formal Verification-Driven Framework for Automated Cryptanalysis**
 
 This repository contains the official implementation of the framework CryptoGraph: A Neuro-Symbolic Automated Framework For Lightweight Block Ciphers Security Evaluation
 
@@ -12,8 +12,8 @@ This framework covers the three dominant block ciphers in lightweight cryptograp
 | Family | Ciphers Included | Role in Study |
 | :--- | :--- | :--- |
 | **Feistel** | **Simon**, **Simeck**, **Xtea** | Training / Validation |
-| **SPN** | **PRESENT**, **GIFT**, **SKINNY**, **RECTANGLE** | Training / **Zero-Shot Testing** (Unseen) |
-| **ARX** | **HIGHT**, **Speck**, **Sparx** (Hybrid) | Training / **Zero-Shot Testing** (Unseen) |
+| **SPN** | **PRESENT**, **GIFT**, **SKINNY**, **RECTANGLE** | Training  / Validation / **Zero-Shot Testing** (Unseen) |
+| **ARX** | **HIGHT**, **Speck**,  **Lea**, **Sparx** (Hybrid) | Training  / Validation / **Zero-Shot Testing** (Unseen) |
 
 ##  Project Workflow
 
@@ -56,6 +56,7 @@ The pipeline is modularized into four sequential steps, bridging the gap between
 
 ## Core Dependencies
 Requirements: Python 3.8+
+
 pip install numpy pandas scikit-learn
 
 ### Graph Deep Learning (PyTorch Geometric)
@@ -65,5 +66,6 @@ pip install torch torch-geometric
 This project explores the intersection of AI and Cryptography. AI Assistance Declaration: Large Language Models (LLMs) were utilized in the development of this framework to:
 - Assist in the syntactical translation of Python reference code to Isabelle/HOL.
 - Refine the plotting code for interpretability visualization.
+
 The security labels and formal verification logic remain grounded in established cryptographic literature and the Isabelle theorem prover.
 
