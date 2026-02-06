@@ -1,0 +1,17 @@
+[
+  {
+    "file": "lea_128_128_Broken.thy",
+    "cipher_variant": "LEA_128_128_Broken",
+    "security_label": "low"
+  },
+  {
+    "file": "lea_128_128.thy",
+    "cipher_variant": "LEA_128_128",
+    "security_label": "high"
+  },
+  {
+    "file": "lea_128_128_Low.thy",
+    "cipher_variant": "LEA_128_128_Low",
+    "security_label": "high"
+  }
+]

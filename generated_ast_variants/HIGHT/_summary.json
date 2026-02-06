@@ -1,0 +1,17 @@
+[
+  {
+    "file": "HIGHT_64_128.thy",
+    "cipher_variant": "HIGHT_64_128",
+    "security_label": "medium"
+  },
+  {
+    "file": "HIGHT_64_128_Broken.thy",
+    "cipher_variant": "HIGHT_64_128_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "HIGHT_64_128_Low.thy",
+    "cipher_variant": "HIGHT_64_128_Low",
+    "security_label": "medium"
+  }
+]

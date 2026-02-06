@@ -1,0 +1,22 @@
+[
+  {
+    "file": "gift_64_128_Broken.thy",
+    "cipher_variant": "GIFT_64_128_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "gift_64_128.thy",
+    "cipher_variant": "GIFT_64_128",
+    "security_label": "high"
+  },
+  {
+    "file": "gift_128_128.thy",
+    "cipher_variant": "GIFT_128_128",
+    "security_label": "high"
+  },
+  {
+    "file": "gift_64_128_Low.thy",
+    "cipher_variant": "GIFT_64_128_Low",
+    "security_label": "low"
+  }
+]

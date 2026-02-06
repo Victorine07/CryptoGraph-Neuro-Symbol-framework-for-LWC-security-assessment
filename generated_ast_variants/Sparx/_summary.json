@@ -1,0 +1,27 @@
+[
+  {
+    "file": "Sparx_64_128_Broken.thy",
+    "cipher_variant": "Sparx_64_128_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "Sparx_128_128.thy",
+    "cipher_variant": "Sparx_128_128",
+    "security_label": "high"
+  },
+  {
+    "file": "Sparx_64_128_Low.thy",
+    "cipher_variant": "Sparx_64_128_Low",
+    "security_label": "low"
+  },
+  {
+    "file": "Sparx_64_128.thy",
+    "cipher_variant": "Sparx_64_128",
+    "security_label": "high"
+  },
+  {
+    "file": "Sparx_128_256.thy",
+    "cipher_variant": "Sparx_128_256",
+    "security_label": "high"
+  }
+]

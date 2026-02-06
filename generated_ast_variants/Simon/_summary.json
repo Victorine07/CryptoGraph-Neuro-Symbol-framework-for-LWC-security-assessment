@@ -1,0 +1,62 @@
+[
+  {
+    "file": "Simon_64_96.thy",
+    "cipher_variant": "Simon_64_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Simon_128_256.thy",
+    "cipher_variant": "Simon_128_256",
+    "security_label": "high"
+  },
+  {
+    "file": "Simon_48_96.thy",
+    "cipher_variant": "Simon_48_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Simon_128_192.thy",
+    "cipher_variant": "Simon_128_192",
+    "security_label": "high"
+  },
+  {
+    "file": "Simon_32_64.thy",
+    "cipher_variant": "Simon_32_64",
+    "security_label": "low"
+  },
+  {
+    "file": "Simon_96_96.thy",
+    "cipher_variant": "Simon_96_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Simon_48_72.thy",
+    "cipher_variant": "Simon_48_72",
+    "security_label": "low"
+  },
+  {
+    "file": "Simon_64_128.thy",
+    "cipher_variant": "Simon_64_128",
+    "security_label": "high"
+  },
+  {
+    "file": "Simon_96_144.thy",
+    "cipher_variant": "Simon_96_144",
+    "security_label": "high"
+  },
+  {
+    "file": "Simon_48_72_Broken.thy",
+    "cipher_variant": "Simon_48_72_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "Simon_128_128.thy",
+    "cipher_variant": "Simon_128_128",
+    "security_label": "high"
+  },
+  {
+    "file": "Simon_32_64_Broken.thy",
+    "cipher_variant": "Simon_32_64_Broken",
+    "security_label": "broken"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "xtea_64_128.thy",
+    "cipher_variant": "XTEA_64_128",
+    "security_label": "high"
+  },
+  {
+    "file": "xtea_64_128_Broken.thy",
+    "cipher_variant": "XTEA_64_128_Broken",
+    "security_label": "broken"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "rectangle_64_80_Broken.thy",
+    "cipher_variant": "Rectangle_64_80_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "rectangle_64_80.thy",
+    "cipher_variant": "Rectangle_64_80",
+    "security_label": "medium"
+  },
+  {
+    "file": "rectangle_64_80_Low.thy",
+    "cipher_variant": "Rectangle_64_80_Low",
+    "security_label": "low"
+  }
+]

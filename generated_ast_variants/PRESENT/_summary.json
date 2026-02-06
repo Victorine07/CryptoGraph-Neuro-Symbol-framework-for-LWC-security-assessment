@@ -1,0 +1,17 @@
+[
+  {
+    "file": "Present_64_80.thy",
+    "cipher_variant": "PRESENT_64_80",
+    "security_label": "medium"
+  },
+  {
+    "file": "Present_64_40.thy",
+    "cipher_variant": "PRESENT_64_40",
+    "security_label": "low"
+  },
+  {
+    "file": "Present_64_128.thy",
+    "cipher_variant": "PRESENT_64_128",
+    "security_label": "high"
+  }
+]

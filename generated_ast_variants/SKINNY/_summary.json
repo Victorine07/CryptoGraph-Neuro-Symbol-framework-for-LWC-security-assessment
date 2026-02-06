@@ -1,0 +1,17 @@
+[
+  {
+    "file": "SKINNY_64_128_Broken.thy",
+    "cipher_variant": "SKINNY_64_128_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "SKINNY_64_64.thy",
+    "cipher_variant": "SKINNY_64_64",
+    "security_label": "medium"
+  },
+  {
+    "file": "SKINNY_64_128.thy",
+    "cipher_variant": "SKINNY_64_128",
+    "security_label": "high"
+  }
+]

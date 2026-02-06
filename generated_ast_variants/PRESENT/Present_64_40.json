@@ -1,0 +1,440 @@
+{
+  "cipher_variant": "PRESENT_64_40",
+  "nodes": [
+    {
+      "id": 8,
+      "type": "function",
+      "label": "present_encrypt",
+      "cryptographic_patterns": {
+        "feistel_network": false,
+        "arx_operation_chains": [],
+        "spn_layers": false,
+        "key_schedule_complexity": 0,
+        "round_function_structure": {},
+        "cryptographic_operation_distribution": {
+          "operation": 8
+        },
+        "sbox_perm_chains": []
+      }
+    },
+    {
+      "id": 0,
+      "type": "op",
+      "label": "LET",
+      "context": "present_encrypt",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 1,
+      "type": "op",
+      "label": "APPLY",
+      "context": "binding_keys",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 2,
+      "type": "func_name",
+      "label": "present_generate_key_schedule",
+      "context": "apply_func",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 3,
+      "type": "var",
+      "label": "key",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 4,
+      "type": "op",
+      "label": "APPLY",
+      "context": "let_body",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 5,
+      "type": "func_name",
+      "label": "present_encrypt_block",
+      "context": "apply_func",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 6,
+      "type": "var",
+      "label": "plaintext",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 7,
+      "type": "var",
+      "label": "keys",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 17,
+      "type": "function",
+      "label": "present_decrypt",
+      "cryptographic_patterns": {
+        "feistel_network": false,
+        "arx_operation_chains": [],
+        "spn_layers": false,
+        "key_schedule_complexity": 0,
+        "round_function_structure": {},
+        "cryptographic_operation_distribution": {
+          "operation": 8
+        },
+        "sbox_perm_chains": []
+      }
+    },
+    {
+      "id": 9,
+      "type": "op",
+      "label": "LET",
+      "context": "present_decrypt",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 10,
+      "type": "op",
+      "label": "APPLY",
+      "context": "binding_keys",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 11,
+      "type": "func_name",
+      "label": "present_generate_key_schedule",
+      "context": "apply_func",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 12,
+      "type": "var",
+      "label": "key",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 13,
+      "type": "op",
+      "label": "APPLY",
+      "context": "let_body",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 14,
+      "type": "func_name",
+      "label": "present_decrypt_block",
+      "context": "apply_func",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 15,
+      "type": "var",
+      "label": "ciphertext",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    },
+    {
+      "id": 16,
+      "type": "var",
+      "label": "keys",
+      "context": "apply_arg",
+      "crypto_role": "operation",
+      "crypto_strength": 1.0,
+      "diffusion_power": 0.0,
+      "nonlinearity": 0.0,
+      "data_flow_role": "processing"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "type": "child"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "type": "func"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "child"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "arg",
+      "position": 0
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "type": "binding",
+      "var": "keys"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "type": "child"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "type": "func"
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "type": "child"
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "type": "arg",
+      "position": 0
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "type": "child"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "type": "arg",
+      "position": 1
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "type": "body"
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "type": "contains"
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "type": "child"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "type": "func"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "type": "child"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "type": "arg",
+      "position": 0
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "type": "binding",
+      "var": "keys"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "type": "child"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "type": "func"
+    },
+    {
+      "source": 13,
+      "target": 15,
+      "type": "child"
+    },
+    {
+      "source": 13,
+      "target": 15,
+      "type": "arg",
+      "position": 0
+    },
+    {
+      "source": 13,
+      "target": 16,
+      "type": "child"
+    },
+    {
+      "source": 13,
+      "target": 16,
+      "type": "arg",
+      "position": 1
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "type": "body"
+    },
+    {
+      "source": 17,
+      "target": 9,
+      "type": "contains"
+    }
+  ],
+  "functions": [
+    "present_encrypt",
+    "present_decrypt"
+  ],
+  "pdv": {
+    "source_file": "Present_64_40.thy",
+    "cipher_family": "SPN",
+    "cipher_name": "PRESENT",
+    "block_size": 64,
+    "key_size": 40,
+    "rounds": 8,
+    "spn_structure": {
+      "has_sbox_layer": 0,
+      "has_perm_layer": 0,
+      "has_round_function": 0,
+      "has_key_schedule": 0,
+      "round_complexity": 0,
+      "sbox_size": 4,
+      "sbox_nonlinearity": 0.5,
+      "sbox_applications": 0,
+      "perm_applications": 0,
+      "xor_applications": 0,
+      "confusion_diffusion_balance": 0.0,
+      "layer_separation": 0,
+      "key_schedule_complexity": "simple"
+    },
+    "sbox_info": {
+      "sbox_size": 4,
+      "sbox_defined": false,
+      "sbox_nonlinearity": 0.5,
+      "sbox_entries": []
+    },
+    "permutation_info": {
+      "perm_defined": true,
+      "perm_type": "bit_permutation",
+      "perm_size": 64
+    },
+    "ops_summary": {
+      "xor_count": 0,
+      "rotl_count": 0,
+      "rotr_count": 0,
+      "add_count": 0,
+      "sub_count": 0,
+      "and_count": 0,
+      "sbox_count": 0,
+      "perm_count": 0,
+      "z_seq_usage": 0,
+      "uses_shift_params": 0
+    }
+  },
+  "unified_pdv": {
+    "block_size": 64,
+    "key_size": 40,
+    "rounds": 8,
+    "is_feistel": 0,
+    "is_arx": 0,
+    "is_spn": 1,
+    "is_hybrid": 0,
+    "branch_count": 2,
+    "sbox_type": 0,
+    "permutation_type": 0,
+    "xor_count": 0,
+    "rotl_count": 0,
+    "rotr_count": 0,
+    "add_count": 0,
+    "sub_count": 0,
+    "and_count": 0,
+    "sbox_count": 0,
+    "perm_count": 0,
+    "nonlinearity_density": 0.0,
+    "diffusion_density": 0.0,
+    "state_update_density": 0.0,
+    "ast_node_count": 18,
+    "ast_edge_count": 26,
+    "function_count": 2,
+    "cyclomatic_complexity_proxy": 1.4444444444444444,
+    "key_schedule_type": 1,
+    "key_injection_type": 1,
+    "algebraic_degree_proxy": 0.0,
+    "key_state_ratio": 0.625,
+    "sbox_density": 0.0,
+    "avg_degree_centrality": 2.888888888888889,
+    "critical_path_proxy": 9.0,
+    "interaction_density": 0.0
+  },
+  "security_score": 4.08,
+  "security_label": "low"
+}

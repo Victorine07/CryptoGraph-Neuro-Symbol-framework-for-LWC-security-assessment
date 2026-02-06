@@ -1,0 +1,62 @@
+[
+  {
+    "file": "Speck_128_192.thy",
+    "cipher_variant": "Speck_128_192",
+    "security_label": "high"
+  },
+  {
+    "file": "Speck_128_256.thy",
+    "cipher_variant": "Speck_128_256",
+    "security_label": "high"
+  },
+  {
+    "file": "Speck_96_96.thy",
+    "cipher_variant": "Speck_96_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Speck_48_72.thy",
+    "cipher_variant": "Speck_48_72",
+    "security_label": "low"
+  },
+  {
+    "file": "Speck_32_64_Broken.thy",
+    "cipher_variant": "Speck_32_64_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "Speck_48_72_Broken.thy",
+    "cipher_variant": "Speck_48_72_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "Speck_48_96.thy",
+    "cipher_variant": "Speck_48_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Speck_128_128.thy",
+    "cipher_variant": "Speck_128_128",
+    "security_label": "high"
+  },
+  {
+    "file": "Speck_32_64.thy",
+    "cipher_variant": "Speck_32_64",
+    "security_label": "low"
+  },
+  {
+    "file": "Speck_64_96.thy",
+    "cipher_variant": "Speck_64_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Speck_96_144.thy",
+    "cipher_variant": "Speck_96_144",
+    "security_label": "high"
+  },
+  {
+    "file": "Speck_64_128.thy",
+    "cipher_variant": "Speck_64_128",
+    "security_label": "high"
+  }
+]

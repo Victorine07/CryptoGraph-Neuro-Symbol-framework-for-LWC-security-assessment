@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Simeck_32_64_Broken.thy",
+    "cipher_variant": "Simeck_32_64_Broken",
+    "security_label": "broken"
+  },
+  {
+    "file": "Simeck_48_96.thy",
+    "cipher_variant": "Simeck_48_96",
+    "security_label": "medium"
+  },
+  {
+    "file": "Simeck_32_64.thy",
+    "cipher_variant": "Simeck_32_64",
+    "security_label": "low"
+  },
+  {
+    "file": "Simeck_64_128.thy",
+    "cipher_variant": "Simeck_64_128",
+    "security_label": "high"
+  }
+]
